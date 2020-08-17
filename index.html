@@ -72,7 +72,7 @@
         border-top:hsl(180, 62%, 55%) 3px solid;
         position: relative;
         top: 100px;
-        left: 125px
+        left: 80px
       }
       #box2 {
         border-top:hsl(0, 78%, 62%) 3px solid;
@@ -84,9 +84,13 @@
         border-top:hsl(212, 86%, 64%) 3px solid;
         position: relative;
         top: 100px;
-        right: 125px
+        right: 80px
       }
-      @media screen and (max-width: 1401px) {
+      img {
+        padding: 20px;
+        float: right;
+      }
+      @media screen and (max-width: 1275px) {
         #col {
           width: 100%;
         }
@@ -119,6 +123,7 @@
       <div class="card" id="box1">
         <h3>Supervisor</h3>
         <div class="p2">Monitors activity to identify project roadblocks</div>
+        <img src="./images/icon-supervisor.svg">
       </div>
 
     </div>
@@ -126,16 +131,19 @@
       <div class="card" id="box2">
         <h3>Team Builder</h3>
         <div class="p2">Scans our talent network to create the optimal team for your project</div>
+        <img src="./images/icon-team-builder.svg">
       </div>
       <div class="card" id="box3">
         <h3>Karma</h3>
         <div class="p2">Regularly evaluates our talent to ensure quality</div>
+        <img src="./images/icon-karma.svg">
       </div>
     </div>
     <div id="col">
       <div class="card" id="box4">
         <h3>Calculator</h3>
         <div class="p2">Uses data from past projects to provide better delivery estimates</div>
+        <img src="./images/icon-calculator.svg">
       </div>
     </div>
   </div>
